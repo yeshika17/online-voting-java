@@ -1,0 +1,11 @@
+{
+  "name": "voting-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve -s build -l 3000 || (echo 'Use a static server. For development run: npx parcel src/index.html')",
+    "dev": "npx parcel src/index.html --port 3000",
+    "build": "npx parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {}
+}
